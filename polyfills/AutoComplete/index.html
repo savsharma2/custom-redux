@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Input Tags</title>
+    <link rel="stylesheet" href="tags.css">
+</head>
+
+<body>
+    <p>
+        Enter some tags:
+    </p>
+    <p>
+    <div class="tags-input" data-name="tags-input">
+        <input type="text" class="main-input" id="myInput">
+        <!-- <input type="hidden" name="tags-input" value="hello!"> -->
+    </div>
+    <div id="autocomplete" style="width:300px;">
+        <div id="autocomplete-list" class="autocomplete-items" style="top: 9px;">
+     
+        </div>
+    </div>
+    <div class="json-view">
+        <pre id="json-view"></pre>
+    </div>
+    </p>
+
+    <script src="./index.js" type="module"></script>
+
+</body>
+
+</html>

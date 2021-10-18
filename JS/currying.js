@@ -19,7 +19,7 @@
 
   const curriedSum = curry(sum);
 
-  console.log(curriedSum(1)(2, 2));
+//   console.log(curriedSum(1)(2, 2));
 })();
 
 (() => {

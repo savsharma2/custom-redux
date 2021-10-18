@@ -63,7 +63,7 @@ const getPromise = (time) => {
 
 getPromise(1002)
   .then((res) => {
-    return res;
+    return getPromise(1004);
   })
   .then((res) => {
     console.log(res);
